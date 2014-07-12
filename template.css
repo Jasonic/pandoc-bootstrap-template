@@ -3048,4 +3048,5 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
 .toc ul > li > a:hover,
 .toc ul > li > a:focus { text-decoration: none; background-color: #eeeeee; }
 .toc ul { margin-bottom: 0; }
+.toc ul > li > ul > li { margin-left: 1.4em; }
 .toc ul > li > a, .toc ul > li > a { padding: 3px 15px; }
