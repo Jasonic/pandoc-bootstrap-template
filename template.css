@@ -638,8 +638,12 @@ h6 small {
   line-height: 1;
   color: #999999;
 }
-h1,
-h2,
+h1 {
+  padding-top: 30px;
+}
+h1, h2 {
+  line-height: 50px;
+}
 h3 {
   line-height: 40px;
 }
@@ -831,7 +835,7 @@ code {
 }
 pre {
   display: block;
-  padding: 9.5px;
+/*  padding: 9.5px;*/
   margin: 0 0 10px;
   font-size: 13px;
   line-height: 20px;
@@ -839,13 +843,42 @@ pre {
   word-wrap: break-word;
   white-space: pre;
   white-space: pre-wrap;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+/*  background-color: #f5f5f5;*/
+/*  border: 1px solid #ccc;*/
+/*  border: 1px solid rgba(0, 0, 0, 0.15);*/
+/*  -webkit-border-radius: 4px;*/
+/*  -moz-border-radius: 4px;*/
+/*  border-radius: 4px;*/
 }
+
+:not(.haskell-music) > pre {
+          padding: 9.5px;
+          background-color: #f5f5f5;
+          border: 1px solid #ccc;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+        
+}
+div.haskell-music {
+          padding: 9.5px;
+          background-color: #f9f9f9;
+          border: 1px solid #ccc;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          -webkit-border-radius: 6px;
+          -moz-border-radius: 6px;
+          border-radius: 6px;
+          margin-bottom: 6px;
+}
+div.haskell-music img {
+        padding-bottom:         10px;
+}
+.haskell-music-listen {
+        font-size: 9px;
+}
+
+
 pre.prettyprint {
   margin-bottom: 20px;
 }
